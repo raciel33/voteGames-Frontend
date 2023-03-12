@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "firestore-grafica-1dec2": {
+      "hosting": {
+        "voteGames": [
+          "firestore-grafica-1dec2"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "firestore-grafica-1dec2"
+  }
+}

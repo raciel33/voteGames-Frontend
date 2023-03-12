@@ -91,8 +91,21 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "voteGames:build:production",
+            "firebaseProject": "firestore-grafica-1dec2",
+            "firebaseHostingSite": "firestore-grafica-1dec2"
+          }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "fcf0905f-33d7-4093-a540-71bbc35ace3e"
   }
 }
